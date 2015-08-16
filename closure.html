@@ -1,0 +1,14 @@
+
+
+<script type="text/javascript">
+	var increaseClickCount = (function () {
+		var clickCount = 0;
+		return funtion () {
+			return ++clickCount;
+		}
+	})
+	();
+
+</script>
+
+<input type="button" value="Click Me" onclick="alert(increaseClickCount() );"/>
